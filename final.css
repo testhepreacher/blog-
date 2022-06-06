@@ -20,10 +20,12 @@ html {
     padding-top: 6px;
     padding-right: 20px;
 }
-nav {
+.nav-bar nav {
     flex: 1;
     text-align: right;
-    padding-right: 100px;
+    /* align-items: flex-end; */
+    padding-right: 20px;
+    padding-left: 650px;
     font-size: 12px;
 }
 .home {
@@ -33,7 +35,7 @@ nav {
     display: flex;
     margin-left: 0;
     padding-left: 55px;
-    padding-top: 20px;
+    /* padding-top: 20px; */
     font-family: serif;
 }
 .nav-2 nav {
@@ -66,12 +68,13 @@ nav {
     left: 80%;
     transform: translate(-50%, -50%);
     background: #2c3441;
-    height: 30px;
+    height: 20px;
     border-radius: 40px;
     padding: 10px;
     padding-right: 30px;
-    align-items: flex-end;
-    /* padding-top: 50px; */
+    align-items: right;
+    padding-bottom: 30px;
+    /* padding-top: -50px; */
 }
 .search input {
     padding-right: 20px;
@@ -80,8 +83,9 @@ nav {
     width: 200px;
     padding: 0 10px;
 }
-.icon {
+.icon i{
     color: orange;
+    padding-bottom: 10px;
 }
 .search:hover > .icon {
     background: none;
@@ -215,6 +219,7 @@ input {
     }
     .nav-2 nav ul {
         display: inline-block ;
+        /* margin: 0; */
     }
     .nav-2 {
         display: flex;
@@ -229,8 +234,8 @@ input {
     .nav-2 nav ul li {
         padding-right: 5px;
     }
-    .search-icon {
-        display: none;
+    .search {
+        display: flex;
     }
     .doja {
         display: flex;
