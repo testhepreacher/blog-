@@ -1,0 +1,157 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+    /* overflow: hidden; */
+    background-image: url(carousel-3.jpg); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;  
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+}
+.klean {
+    /* box-sizing: border-box; */
+    /* padding: 15px; */
+    background-color: #23A036;
+    height: 125px;
+    width: 400px;
+    flex-basis: 30%;
+}
+.klean h1{
+    font-size: 72px;
+    background-color: #23A036;
+    color: #FFC600;
+    box-sizing: border-box;
+    padding-right: 40px;
+    padding-left: 40px;
+    /* margin-bottom: 20px; */
+    transform: translateY(-20px);
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+.flex-2 {
+    flex-basis: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.colomn {
+    display: flex;
+    flex-direction: row;
+    background-color: #0A1026;
+    height: 40px;
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.info {
+    flex-basis: 50%;
+} 
+.info small {
+    text-align: right;
+    color: white;
+}
+#mail {
+    color: #FFC600;
+}
+#phone small {
+    color: white;
+}
+#phone {
+    padding-left: 30px;
+    color: #FFC600;
+}
+#phone i {
+    color: #FFC600;
+}
+.icons {
+    color: #FFC600;
+    flex-basis: 50%;
+    text-align: right;
+    padding-right: 30px;
+}
+.icons i {
+    padding-right: 20px;
+}
+.nav-2 {
+    width: 100%;
+    height: auto;
+    /* text-align: center; */
+    /* padding-top: 10px; */
+    align-self: center;
+    cursor: pointer;
+    background-color: white;
+}
+.nav-2 ul {
+    padding-left: 20px;
+}
+.nav-2 ul li {
+    display: inline-block;
+    padding-right: 15px;
+    font-size: 17px;
+}
+.nav-2 ul li strong {
+    padding-top: 30px;
+}
+.nav-2 ul li :hover {
+    color: #23A036;
+}
+.button {
+    background-color: #FFC600;
+    height: 40px;
+    border-radius: 25px;
+    width: 120px;
+    border-color: transparent;
+   transform: translateX(460px);
+}
+#home {
+    color: #23A036;
+}
+.cleaning{
+    padding-top: 120px;
+   padding-left: 400px;
+} 
+.cleaning img {
+    z-index: 1;
+}.cleaning strong {
+    align-items: center;
+}
+.cleaning h4 {
+    color: #FFC600;
+}
+.cleaning h1 {
+    color: white;
+    font-size: 60px;
+}
+.cleaning button {
+    background-color: #FFC600;
+    height: 40px;
+    border-radius: 25px;
+    width: 120px;
+    border-color: transparent;
+}
+.final {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    width: 100%;
+    height: 200px;
+    position: relative;
+    left: 0;
+    transform: translateY(20px);
+}
+.loc {
+    background-color: #FFC600;
+    flex-basis: 33.3%;
+}
+.email {
+    background-color: #23A036;
+    flex-basis: 33.3%;
+}
+.call {
+    background-color: #FFC600;
+    flex-basis: 33.3%;
+
+}
