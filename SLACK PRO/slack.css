@@ -1,0 +1,106 @@
+body {
+    padding: 25px 100px 0 100px;
+    font-family: "poppins", /*sans-serif*/;
+    background-color: #F2E6E6;
+    overflow: hidden;
+}
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.elearn {
+    font-size: 24px;
+}
+.ee {
+    color: #3C485B;
+}
+.learn {
+    color: #D47278;
+}
+.home {
+    align-content: center;
+}
+.home ul li {
+    display: inline-block;
+    padding-right: 18px;
+    font-size: 18px;
+}
+.home ul li a {
+    text-decoration: none;
+    color: #576172;
+}
+.home ul li {
+    color: #D47278;
+}
+.button button {
+    height: 35px;
+    background-color: #D47278;
+    border-color: transparent;
+    border-radius: 5px;
+    width: 80px;
+    color: white;
+}
+.main {
+    display: flex;
+    flex-direction: row;
+    /* padding-top: 100px; */
+    justify-content: space-between;
+}
+.online {
+    flex-basis: 30%;
+}
+.online h1 {
+    color: #576172;
+    font-size: 32px;
+}
+.online h5 {
+    color: #CDC3C4;
+    font-size: 22px;
+    /* padding-bottom: 15px; */
+}
+.button-1 {
+    height: 35px;
+    background-color: #D47278;
+    border-color: transparent;
+    border-radius: 5px;
+    width: 100px;
+    color: white;
+}
+.button-2 {
+    height: 35px;
+    background-color: transparent;
+    border-color: #D47278;
+    border-radius: 5px;
+    width: 100px;
+    color: #D47279;
+}
+.images {
+    padding-top: 75px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.google {
+    width: auto;
+    height: 30px;
+}
+.slack {
+    padding-left: 30px;
+    width: auto;
+    height: 40px;
+   
+}
+.image {
+    flex-basis: 70%;
+    position: relative;
+    top: -110px;
+    right: -50px;
+    /* transform: translateY(-100px); */
+}
+.image img {
+    width: 100%;
+    height: 80%;
+}
