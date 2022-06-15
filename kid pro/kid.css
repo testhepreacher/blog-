@@ -1,0 +1,105 @@
+body {
+    font-family: "nunito", sans-serif;
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+}
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 100px;
+}
+.kid {
+    align-content: center;
+    padding-left: 50px;
+}
+.kid strong {
+    font-size: 40px;
+    color: #17A2B8;
+    /* padding-left: 50px; */
+}
+.kid img {
+    width: 35px;
+}
+.options ul {
+    text-decoration: none;
+}
+.options ul li {
+    display: inline-block;
+    font-size: 16px;
+    padding-right: 15px;  
+}
+.options li strong {
+    color: #17A2B8;
+}
+.options ul li a {
+    text-decoration: none;
+}
+.options ul li a strong:hover {
+    color: #17A2B8;
+}
+.options li a strong {
+    color: #00394F;
+}
+.btn {
+    padding-right: 50px;
+}
+.btn button {
+    width: 100px;
+    height: 40px;
+    background-color: #17A2B8;
+    color: white;
+    border-radius: 20px;
+    border-color: transparent;
+    cursor: pointer;
+}
+.btn button:hover {
+    background-color: #00394F;
+}
+.body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #17A2B8;
+    padding-left: 50px;
+    height: 100vh;
+
+}
+.text {
+    flex-basis: 55%;
+    color: white;
+    align-items: center;
+    align-self: center;
+    font-family: "handlee", cursive;
+}
+.text h3 {
+    font-size: 22px;
+}
+.text h1 {
+    font-size: 60px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.text h5 {
+    font-size: 16px;
+    font-weight: 100;
+}
+.text button {
+    background-color: #00394F;
+    color: white;
+    border-color: transparent;
+    height: 60px;
+    width: 150px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.image {
+    flex-basis: 45%;
+    padding-top: 20px;
+}
+.image img {
+    height: 90%;
+}
