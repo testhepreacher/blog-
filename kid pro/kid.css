@@ -26,6 +26,9 @@ body {
 .kid img {
     width: 35px;
 }
+.kid i {
+    display: none;
+}
 .options ul {
     text-decoration: none;
 }
@@ -310,21 +313,24 @@ body {
 .im img {
     width: 200px;
 }
-.im ul li {
-    text-decoration: overline;
-    text-decoration-color: lightgrey;
-    padding: 8px 0;
-    /* border-top: #F8F9FA; */
-    /* border-bottom: #F8F9FA; */
-    display: inline-table;
-    /* color: #bbb; */
+.im ul  {
+    border: 10px;
+    border-color: #00394F;
+    list-style: none;
 }
-.im ul {
-    text-decoration: overline;
+.im ul li {
+    /* text-decoration: overline; */
+    /* text-decoration-color: black; */
+    padding: 8px 0;
+    border: 5px;
+    border-color: black;
+    /* background-color: #00394F; */
 }
 .im li i {
     color: #17A2B8;
     width: 30px;
+    /* border-top: #bbb;
+    border-bottom: #bbb; */
 }
 .best button {
     background-color: #17A2B8;
@@ -364,9 +370,9 @@ footer {
     width: 35px;
 }
 .bear button {
-    border-radius: 200px;
-    background-color: transparent;
-    border-color: #17A2B8;
+    border-radius: 100%;
+    /* background-color: transparent; */
+    border-color: 100%;
 }
 .bear button i {
     color: #17A2B8;
@@ -470,4 +476,150 @@ hr {
     border-color: lightgrey;
     color: lightgrey;
     width: 1400px;
+}
+@media only screen and (max-width:1024px){
+        html {
+            /* overflow: hidden; */
+        }
+        .nav-bar {
+            /* padding-bottom: 200px; */
+            padding: 0 15px;
+            justify-content: space-between;
+        }
+        .options {
+            display: none;
+        }
+        .btn {
+            display: none;
+        }
+        .text h5 {
+            font-size: 16px;
+            font-family: 'Nunito', sans-serif;
+        }
+        .kid button {
+            background-color: transparent;
+            height: 30px;
+        }
+        .kid button i {
+            
+        }
+        .kid {
+            /* flex-basis: 100%; */
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 0;
+        }
+        .kid strong {
+            font-size:60px;
+            padding-right: 30px;
+        }
+        .kid i {
+            display: block;
+        }
+        .kid img {
+            width: 40px;
+        }
+        .body {
+            padding-top: 50px;
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            text-align: center;
+            padding-left: 0;
+        }
+        .body h1 {
+            font-size: 30px;
+        }
+        .body h5 {
+            font-size: 16px;
+        }
+        .body h6 {
+            font-size: 20px;
+        }
+        .image {
+            padding: 0;
+        }
+        .image img {
+            width: 400px;
+        }
+        .rows {
+            display: flex;
+            flex-direction: column;
+            padding-top: 30px;
+            padding-right: 10px;
+            padding-left: 20px;
+        }
+        .colomn {
+            display: flex;
+            flex-direction: column;
+            padding-top: 0;
+            padding-right: 10px;
+            padding-left: 20px;
+        }
+    .rows div {
+        margin-bottom: 50px;
+    }
+    .colomn div {
+        margin-bottom: 50px;
+    }
+    .learn {
+        display: block;
+        /* flex-direction: column; */
+        padding-top: 100px;
+        padding-right: 0;
+        padding-left: 10px;
+        align-items: center;
+    }
+    .learn-img img {
+        width: 350px;
+        margin-left: 22px;
+    }
+    .best {
+        margin-top: 20px;
+        padding-left: 15px;
+    }
+    .best small {
+        font-size: 24px;
+    }
+    .best h5{
+        font-size: 16px;
+        font-family: 'Nunito', sans-serif;
+    }
+    .im {
+        flex-basis: 50%;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+    .im img {
+        height: 150px;
+    }
+    .im ul {
+        padding-left: 10px;
+    }
+    .best button {
+        margin-bottom: 30px;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+}
+.footer div {
+    padding-left: 15px;
+}
+.news div {
+    padding-left: 0;
+}
+.news input {
+    padding: 0;
+    height: 48px;
+    padding-left: 10px;
+    
+}
+.final {
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px
+}
 }
