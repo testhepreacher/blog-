@@ -1,0 +1,7 @@
+.curve-practice {
+    height: 500px;
+    background-color: tomato;
+    border-radius: 0 0 80% 80%;
+    text-align: center;
+    vertical-align: middle;
+}
